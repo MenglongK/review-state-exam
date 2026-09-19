@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProductCard from "@/components/product-card/ProductCard";
 
 export default function Homepage() {
     return (
@@ -36,6 +37,9 @@ export default function Homepage() {
                         />
                     </div>
                 </div>
+            </section>
+            <section className={"items-center flex"}>
+                <ProductCard/>
             </section>
         </>
     )
